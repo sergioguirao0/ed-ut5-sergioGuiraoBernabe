@@ -36,6 +36,9 @@ public class Fibonacci {
         System.out.print("Indica la cantidad de terminos que quieres mostrar: ");
         cantidad = scanner.nextInt();
 
+        System.out.println("¿Quieres mostrar la serie en orden inverso? (S/N): ");
+        char opcion = scanner.next().charAt(0);
+
         // Con el condicional if/else se muestra un mensaje de error si la cantidad es menor que 1
         if(cantidad > 0){
             // Utilizo un bucle for para poder mostrar por pantalla cada uno de los valores

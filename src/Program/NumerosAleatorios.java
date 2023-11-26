@@ -66,7 +66,7 @@ public class NumerosAleatorios {
                     minimo = scanner.nextInt();
                     System.out.print("Indica el número máximo: ");
                     maximo = scanner.nextInt();
-                    System.out.print("Indica la cantidad de aleatorios que quieres generar: ");
+                    System.out.print("Indica la cantidad de aleatorios que quieres producir: ");
                     cantidadAleatorios = scanner.nextInt();
 
                     // Se llama al método creado anteriormente con los 3 parámetros
@@ -78,7 +78,7 @@ public class NumerosAleatorios {
 
                 case 2:
                     // En la opción 2 se solicita la cantidad de aleatorios
-                    System.out.print("Indica la cantidad de aleatorios que quieres generar: ");
+                    System.out.print("Indica la cantidad de aleatorios que quieres producir: ");
                     cantidadAleatorios = scanner.nextInt();
 
                     // Se llama al método creado anteriormente con 1 parámetro
@@ -90,13 +90,13 @@ public class NumerosAleatorios {
 
                 case 3:
                     // La opción 3 se utilizará para finalizar el programa
-                    System.out.println("Saliendo del programa. Gracias!");
+                    System.out.println("Cerrando programa. Gracias!");
 
                     break;
 
                 default:
                     // Mensaje en caso de opción no válida
-                    System.out.println("Opción no válida");
+                    System.out.println("Incorrecto");
             }
         }while(opcion != 3);
     }
